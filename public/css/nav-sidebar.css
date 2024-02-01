@@ -1,0 +1,119 @@
+a{
+    text-decoration: none;
+    color: unset;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    /* width: 100%; */
+  }
+  .navbar {
+    position: relative;
+    color: var(--secondary-font);
+    overflow: hidden;
+  }
+  
+  .logo {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-btn{
+    background-color: var(--bg-blue);
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    margin: 0.5rem; 
+  }
+
+  .logo img {
+    width: 200px;
+    padding: 2rem;
+  }
+  
+  .sidebar{
+    transform: translate(0%, -3%);
+    display: none;
+  }
+
+  .sidebar ul, .nav-sidebar ul {
+    background: var(--bg-secondary);
+    padding: 2rem 0;
+    height: 87vh;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .sidebar ul li, .nav-sidebar ul li {
+    margin: 0rem 2rem 2rem;
+    font-size: 1rem;
+  }
+  
+  .active,
+  .nav-btn {
+    background-color: #ffff;
+    border: 2px solid aliceblue;
+    padding: 1rem 1.2rem;
+    border-radius: 7px;
+  }
+  
+  .list-item {
+    padding-left: 1.5rem;
+  }
+  .nav-btn {
+    background-color: var(--bg-blue);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 2rem;
+  }
+  .nav-btn button {
+    color: aliceblue;
+    background-color: var(--bg-blue);
+    border: unset;
+    font-size: 1rem;
+  }
+  
+  .menu-icon {
+    font-size: 3rem;
+    margin: 1rem 2rem;
+  }
+  
+  .nav-list {
+    display: none;
+  }
+  
+  .nav-list.visible {
+    display: block;
+  }
+
+  @media screen and (min-width:989px) {
+    .nav-sidebar{
+        display: none;
+      }
+       .menu-icon{
+        display: none;
+        visibility: hidden;
+        visibility: unset;
+        display: none;
+       }
+       .sidebar{
+        display: block;
+       }
+
+       .sidebar{
+        display: block;
+      }
+      .sidebar ul {
+        height: 87vh;
+        display: block;
+      }
+    
+      .logo {
+        background-color: var(--bg-secondary);
+      }
+  }
+  
+  

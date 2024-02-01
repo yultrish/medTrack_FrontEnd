@@ -1,0 +1,88 @@
+/* table styles */
+.content{
+    /* margin-top: 20px; */
+    text-transform: capitalize;
+    overflow: scroll;
+    background-color: #f3f3f3;
+    width: 100%;
+  }
+  .content-list{
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  .content-list h1{
+    padding: 1rem 2rem;
+  }
+  .table{
+    border-collapse: collapse;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+  }
+
+  table thead tr{
+    color: #fff;
+    /* background: #34AF6D; */
+    background: orange;
+    text-align: left;
+    font-weight: bold;
+  }
+  .table th{
+    background-color: var(--bg-blue);
+    color: #fff;
+    white-space: nowrap;
+  }
+  .table th,
+  .table td{
+    padding: 12px 15px;
+  }
+  .table td{
+    border-bottom: 1.5px solid var(--bg-secondary);
+  }
+  .flex-td{
+    display: flex;
+    gap: 1rem;
+  }
+  .table tbody tr:last-of-type{
+    border-bottom: 2px solid var(--bg-blue);
+  }
+  
+  .table button{
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #263043;
+    margin-bottom: 0.5rem;
+  }
+  .table button:hover{
+    background: var(--bg-secondary);
+    color: #fff;
+    transition: 0.5rem;
+  }
+  
+  .description{
+    width: 100%;
+  }
+  
+  
+  
+  
+  @media screen and (min-width:989px) {
+    
+      .content{
+        overflow: auto;
+        width: 80%;
+        /* margin:5rem 7rem; */
+        overflow: visible;
+        /* background-color: red; */
+        width: 133%;
+      }
+  .content h1{
+    color: black;
+  }
+  }
+  

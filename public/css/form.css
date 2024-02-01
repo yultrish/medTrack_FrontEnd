@@ -1,0 +1,57 @@
+.add-form-container{
+    padding: 2rem;
+    background-color: var(--bg-secondary);
+    border-radius: 10px;
+      box-shadow: 5px 20px 50px #000;
+  }
+  
+  .add-form-container form{
+    display: flex;
+    flex-flow: column;
+    gap: 1.7rem;
+    margin-top: 2rem;
+  
+  }
+  
+  .add-form-container form input, textarea{
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0.5px solid #999;
+    border: none;
+    outline: none;
+    color: #222222;
+  }
+  .textarea{
+    padding: 0rem;
+  }
+  
+  
+  ::placeholder{
+    color: #222222;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .add-form-container form button{
+    width: 60%;
+  }
+  
+  
+  
+  .modal-btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .modal-btns button{
+    padding: 1rem 2rem;
+    background-color: #8891a8;
+      color: #fff;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      transition: .2s ease-in;
+      cursor: pointer;
+  }
+  
